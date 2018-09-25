@@ -1,0 +1,47 @@
+Source,C:/Users/Sodor/Documents/KiCAD/AccessB/AccessB.sch
+Kicad Rev,Eeschema 4.0.0-rc1-stable
+Generated Date,04/11/2015 01:02:44 a.m.
+
+Title,Access B diagram
+Company,Omar Trevizo
+Revision,Not Set
+Date Issue,2015-10-22
+
+Reference,Value,Library,Library Ref
+P2,USB_OTG,conn,USB_OTG
+C1,22pF,device,C
+C2,22pF,device,C
+C4,470pF,device,C
+C3,10uF,device,CP
+P1,ICSP,conn,CONN_01X05
+U1,PIC18(L)F2550-I/SO,microchip_pic18mcu,PIC18(L)F2550-I/SO
+Y1,4MHz,device,Crystal
+P3,GPIO,conn,CONN_02X15
+Q1,BSS138,transistors,BSS138
+R3,R,device,R
+R1,R,device,R
+P4,Vsel,conn,CONN_02X05
+U2,MCP1603LT-ADJI/OS,Microchip MCP1306,MCP1603LT-ADJI/OS
+L1,4.7uH,device,INDUCTOR
+C5,4.7uF,device,CP
+R11,200k,device,R
+R8,63.4k,device,R
+R10,93.1k,device,R
+R12,R,device,R
+R13,R,device,R
+RV1,16M,device,POT
+R14,4.99k,device,R
+C6,33pF,device,C
+C7,4.7uF,device,CP
+Q3,BSS138,transistors,BSS138
+R7,R,device,R
+R5,R,device,R
+Q4,BSS138,transistors,BSS138
+R9,R,device,R
+R6,R,device,R
+Q2,BSS138,transistors,BSS138
+R4,R,device,R
+R2,R,device,R
+Q5,BSS138,transistors,BSS138
+R16,R,device,R
+R15,R,device,R

@@ -1,0 +1,22 @@
+ERC report (03/11/2015 11:11:33 p.m., Encoding UTF8 )
+
+***** Hoja /
+ErrType(5): Conflict problem between pins. Severity: error
+    @ (205.74mm,147.32mm): Pin 1 (Power output) of component #FLG06 is connected to 
+    @ (252.73mm,153.67mm): pin 1 (Power output) of component #FLG022 (net 11).
+ErrType(6): Mismatch between hierarchical labels and pins sheets
+    @ (236.22mm,105.41mm): Sheet label VLS is not connected to a hierarchical label.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (226.06mm,39.37mm): Pin 10 (Pasivo) of component P3 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (148.59mm,73.66mm): Pin 1 (Entrada) of component U1 is unconnected.
+
+***** Hoja /AccessB Voltage Level Shifter/
+ErrType(5): Conflict problem between pins. Severity: error
+    @ (270.51mm,153.67mm): Pin 1 (Power output) of component #FLG023 is connected to 
+    @ (223.52mm,147.32mm): pin 1 (Power output) of component #FLG04 (net 5).
+ErrType(5): Conflict problem between pins. Severity: error
+    @ (252.73mm,153.67mm): Pin 1 (Power output) of component #FLG022 is connected to 
+    @ (138.43mm,160.02mm): pin 1 (Power output) of component P2 (net 11).
+
+ ** ERC messages: 6  Errors 3  Warnings 3
