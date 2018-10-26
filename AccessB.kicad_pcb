@@ -2,8 +2,8 @@
 
   (general
     (links 91)
-    (no_connects 85)
-    (area 136.524999 69.374999 186.675001 119.475001)
+    (no_connects 80)
+    (area 9.741572 30.2 274.200001 168.3774)
     (thickness 1.6)
     (drawings 74)
     (tracks 0)
@@ -383,7 +383,7 @@
   )
 
   (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 564D6023) (tstamp 564C01A6)
-    (at 151.925 90.775 270)
+    (at 150.775 90.775 270)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
     (path /5629BFE7)
@@ -412,7 +412,7 @@
   )
 
   (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 564D6024) (tstamp 564C01AC)
-    (at 151.925 85.975 90)
+    (at 150.775 85.975 90)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
     (path /5629C07C)
@@ -930,7 +930,7 @@
   )
 
   (module Crystals:Crystal_HC49-U_Vertical (layer F.Cu) (tedit 564D6378) (tstamp 564C02D7)
-    (at 148.025 88.375 270)
+    (at 146.875 88.375 270)
     (descr "Crystal, Quarz, HC49/U, vertical, stehend,")
     (tags "Crystal, Quarz, HC49/U, vertical, stehend,")
     (path /5632E118)
@@ -1080,7 +1080,7 @@
   )
 
   (module Capacitors_SMD:CP_Elec_4x5.8 (layer F.Cu) (tedit 58AA8627) (tstamp 59A5DF99)
-    (at 167.15 108.1 270)
+    (at 168.15 90.9 270)
     (descr "SMT capacitor, aluminium electrolytic, 4x5.8")
     (path /592BE632)
     (attr smd)
@@ -1177,7 +1177,7 @@
   )
 
   (module Housings_SOIC:SOIC-28W_7.5x17.9mm_Pitch1.27mm (layer F.Cu) (tedit 58CC8F64) (tstamp 5BCFC843)
-    (at 160.8 88.45)
+    (at 158.75 88.45)
     (descr "28-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /562721CB)
