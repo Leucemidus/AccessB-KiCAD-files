@@ -172,7 +172,7 @@ U 1 1 562721CB
 P 4650 2700
 F 0 "U1" H 3650 3700 50  0000 C CNN
 F 1 "PIC18(L)F2550-I/SO" H 5300 1700 50  0000 C CNN
-F 2 "SMD_Packages:SOIC-28" H 4650 2700 50  0000 C CIN
+F 2 "Housings_SOIC:SOIC-28W_7.5x17.9mm_Pitch1.27mm" H 4650 2700 50  0000 C CIN
 F 3 "" H 4650 2250 60  0000 C CNN
 	1    4650 2700
 	1    0    0    -1  
@@ -249,57 +249,53 @@ F 3 "" H 4600 4000 60  0000 C CNN
 	1    4600 4000
 	1    0    0    -1  
 $EndComp
-Text Label 8400 1250 2    60   ~ 0
-GPIO1/RC0
-Text Label 8400 1350 2    60   ~ 0
-GPIO2/RC1
-Text Label 8400 1450 2    60   ~ 0
+Text Label 12300 750  2    60   ~ 0
 GPIO3/RC2
-Text Label 8400 1550 2    60   ~ 0
-GPIO4/RC6
 Text Label 8400 1650 2    60   ~ 0
-GPIO5/RC7
+GPIO4/RC6
 Text Label 8400 1750 2    60   ~ 0
+GPIO5/RC7
+Text Label 12450 2500 2    60   ~ 0
 GPIO6/RA0
-Text Label 8400 1850 2    60   ~ 0
+Text Label 12550 2200 2    60   ~ 0
 GPIO7/RA1
-Text Label 8400 1950 2    60   ~ 0
+Text Label 12600 1800 2    60   ~ 0
 GPIO8/RA2
-Text Label 8400 2050 2    60   ~ 0
+Text Label 12400 1550 2    60   ~ 0
 GPIO9/RA3
-Text Label 8400 2150 2    60   ~ 0
+Text Label 12450 1350 2    60   ~ 0
 GPIO10/RA4
-Text Label 8400 2250 2    60   ~ 0
+Text Label 12450 1200 2    60   ~ 0
 GPIO11/RA5
-Text Label 8400 2350 2    60   ~ 0
+Text Label 8400 1850 2    60   ~ 0
 GPIO12/RB0
-Text Label 8400 2450 2    60   ~ 0
+Text Label 8400 1950 2    60   ~ 0
 GPIO13/RB1
-Text Label 8400 2550 2    60   ~ 0
+Text Label 8400 2050 2    60   ~ 0
 GPIO14/RB2
-Text Label 8900 1950 0    60   ~ 0
+Text Label 8400 2150 2    60   ~ 0
 GPIO15/RB3
-Text Label 8900 2050 0    60   ~ 0
+Text Label 8400 2250 2    60   ~ 0
 GPIO16/RB4
-Text Label 8900 1750 0    60   ~ 0
+Text Label 8400 2350 2    60   ~ 0
 GPIO17/RB5
-Text Label 8900 1650 0    60   ~ 0
+Text Label 8400 2450 2    60   ~ 0
 GPIO18/RB6
-Text Label 8900 1550 0    60   ~ 0
+Text Label 8400 2550 2    60   ~ 0
 GPIO19/RB7
-Text Label 8900 1350 0    60   ~ 0
+Text Label 10150 850  0    60   ~ 0
 GPIO4/RC6_VLS
-Text Label 8900 1450 0    60   ~ 0
+Text Label 10100 700  0    60   ~ 0
 GPIO5/RC7_VLS
-Text Label 8900 2150 0    60   ~ 0
+Text Label 10250 1300 0    60   ~ 0
 GPIO11/RA5_VLS
-Text Label 8900 2250 0    60   ~ 0
+Text Label 10200 1100 0    60   ~ 0
 GPIO12/RB0_VLS
-Text Label 8900 2350 0    60   ~ 0
+Text Label 10200 950  0    60   ~ 0
 GPIO13/RB1_VLS
-Text Label 8900 1150 0    60   ~ 0
+Text Label 8400 1550 2    60   ~ 0
 +5V
-Text Label 8900 1250 0    60   ~ 0
+Text Label 8400 1350 2    60   ~ 0
 GND
 $Comp
 L GND #PWR05
@@ -382,7 +378,7 @@ Text Label 5850 2500 0    60   ~ 0
 GPIO5/RC7
 Text Label 5850 2900 0    60   ~ 0
 GPIO0/RE3
-Text Label 8400 1150 2    60   ~ 0
+Text Label 12400 2900 2    60   ~ 0
 GPIO0/RE3
 Entry Wire Line
 	7700 1050 7800 1150
@@ -404,8 +400,6 @@ Entry Wire Line
 	7700 1850 7800 1950
 Entry Wire Line
 	7700 1950 7800 2050
-Entry Wire Line
-	7700 2050 7800 2150
 Entry Wire Line
 	7700 2150 7800 2250
 Entry Wire Line
@@ -454,13 +448,13 @@ Entry Wire Line
 	2800 3600 2900 3500
 Entry Wire Line
 	6400 2900 6500 3000
-Text Label 6200 1000 0    118  ~ 24
+Text Label 5650 1000 0    118  ~ 24
 GPIO_BUS
 Text Notes 3350 5000 0    118  ~ 24
 USB PORT
 Text Notes 1450 5000 0    118  ~ 24
 ICSP HEADER
-Text Label 8900 2450 0    60   ~ 0
+Text Label 8400 1250 2    60   ~ 0
 GND
 $Comp
 L CONN_02X15 P3
@@ -503,9 +497,9 @@ Text Label 3700 5150 0    60   ~ 0
 +5V
 Text GLabel 4650 1400 1    60   UnSpc ~ 0
 +5V
-Text Label 8900 2550 0    60   ~ 0
+Text Label 8400 1150 2    60   ~ 0
 VLS
-Text Label 8900 1850 0    60   ~ 0
+Text Label 8400 1450 2    60   ~ 0
 GND
 $Comp
 L USB_OTG-RESCUE-AccessB P5
@@ -556,58 +550,6 @@ F 3 "" H 2900 4900 50  0000 C CNN
 	1    2900 4900
 	1    0    0    -1  
 $EndComp
-$Comp
-L DUMMY_MOUNTING-HOLE_RevE_Date22jun2010 MH1
-U 1 1 5B4C541A
-P 1500 7300
-F 0 "MH1" H 1500 7500 50  0000 C CNN
-F 1 "DUMMY_MOUNTING-HOLE_RevE_Date22jun2010" H 1500 7100 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 1500 7300 50  0001 C CNN
-F 3 "" H 1500 7300 50  0000 C CNN
-	1    1500 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L DUMMY_MOUNTING-HOLE_RevE_Date22jun2010 MH3
-U 1 1 5B4C54EF
-P 3400 7300
-F 0 "MH3" H 3400 7500 50  0000 C CNN
-F 1 "DUMMY_MOUNTING-HOLE_RevE_Date22jun2010" H 3400 7100 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 3400 7300 50  0001 C CNN
-F 3 "" H 3400 7300 50  0000 C CNN
-	1    3400 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L DUMMY_MOUNTING-HOLE_RevE_Date22jun2010 MH4
-U 1 1 5B4C55A8
-P 5300 7300
-F 0 "MH4" H 5300 7500 50  0000 C CNN
-F 1 "DUMMY_MOUNTING-HOLE_RevE_Date22jun2010" H 5300 7100 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 5300 7300 50  0001 C CNN
-F 3 "" H 5300 7300 50  0000 C CNN
-	1    5300 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L DUMMY_MOUNTING-HOLE_RevE_Date22jun2010 MH2
-U 1 1 5B4C5658
-P 3400 6600
-F 0 "MH2" H 3400 6800 50  0000 C CNN
-F 1 "DUMMY_MOUNTING-HOLE_RevE_Date22jun2010" H 3400 6400 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 3400 6600 50  0001 C CNN
-F 3 "" H 3400 6600 50  0000 C CNN
-	1    3400 6600
-	1    0    0    -1  
-$EndComp
-Text GLabel 3750 6600 2    60   UnSpc ~ 0
-GND
-Text GLabel 3750 7300 2    60   UnSpc ~ 0
-GND
-Text GLabel 5650 7300 2    60   UnSpc ~ 0
-GND
-Text GLabel 1800 7300 2    60   UnSpc ~ 0
-GND
 Wire Wire Line
 	1650 2500 1650 3250
 Wire Wire Line
@@ -676,28 +618,6 @@ Wire Bus Line
 	2800 4400 7700 4400
 Wire Bus Line
 	9800 1000 9800 2450
-Wire Wire Line
-	7800 1150 8400 1150
-Wire Wire Line
-	7800 1250 8400 1250
-Wire Wire Line
-	7800 1350 8400 1350
-Wire Wire Line
-	7800 1450 8400 1450
-Wire Wire Line
-	7800 1550 8400 1550
-Wire Wire Line
-	7800 1650 8400 1650
-Wire Wire Line
-	7800 1750 8400 1750
-Wire Wire Line
-	7800 1850 8400 1850
-Wire Wire Line
-	7800 1950 8400 1950
-Wire Wire Line
-	7800 2050 8400 2050
-Wire Wire Line
-	7800 2150 8400 2150
 Wire Wire Line
 	7800 2250 8400 2250
 Wire Wire Line
@@ -790,12 +710,32 @@ Connection ~ 5550 5750
 Wire Wire Line
 	5200 5550 5200 5750
 Connection ~ 5200 5750
+Text Label 12350 900  2    60   ~ 0
+GPIO2/RC1
+Text Label 12400 1050 2    60   ~ 0
+GPIO1/RC0
+Entry Wire Line
+	7700 2050 7800 2150
 Wire Wire Line
-	3750 6600 3400 6600
+	7800 2150 8400 2150
 Wire Wire Line
-	1800 7300 1500 7300
+	7800 2050 8400 2050
 Wire Wire Line
-	3750 7300 3400 7300
+	7800 1950 8400 1950
 Wire Wire Line
-	5650 7300 5300 7300
+	7800 1850 8400 1850
+Wire Wire Line
+	7800 1750 8400 1750
+Wire Wire Line
+	7800 1650 8400 1650
+Wire Wire Line
+	7800 1550 8400 1550
+Wire Wire Line
+	7800 1450 8400 1450
+Wire Wire Line
+	7800 1350 8400 1350
+Wire Wire Line
+	7800 1250 8400 1250
+Wire Wire Line
+	7800 1150 8400 1150
 $EndSCHEMATC
