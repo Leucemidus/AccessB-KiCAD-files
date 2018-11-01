@@ -573,6 +573,28 @@ F 3 "" H 3250 4900 60  0000 C CNN
 $EndComp
 Text GLabel 3050 5700 2    60   UnSpc ~ 0
 GND
+$Comp
+L CP C7
+U 1 1 5BDA4749
+P 6550 5600
+F 0 "C7" H 6575 5700 50  0000 L CNN
+F 1 "10uF" H 6575 5500 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_4x5.8" H 6588 5450 30  0001 C CNN
+F 3 "" H 6550 5600 60  0000 C CNN
+	1    6550 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C6
+U 1 1 5BDA47E5
+P 6200 5600
+F 0 "C6" H 6225 5700 50  0000 L CNN
+F 1 "10uF" H 6225 5500 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_4x5.8" H 6238 5450 30  0001 C CNN
+F 3 "" H 6200 5600 60  0000 C CNN
+	1    6200 5600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3050 5700 2850 5700
 Connection ~ 2850 5700
@@ -582,7 +604,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 5850 7300 5750
 Wire Wire Line
-	6900 5850 7300 5850
+	6200 5850 8050 5850
 Wire Wire Line
 	6900 5750 6900 5850
 Connection ~ 7100 5350
@@ -591,7 +613,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 5350 7300 5450
 Wire Wire Line
-	6900 5350 7300 5350
+	6200 5350 8050 5350
 Wire Wire Line
 	6900 5450 6900 5350
 Wire Wire Line
@@ -771,4 +793,50 @@ Wire Wire Line
 	4300 5750 4300 5800
 Connection ~ 4300 5800
 Connection ~ 5050 5800
+Wire Wire Line
+	6550 5450 6550 5350
+Connection ~ 6900 5350
+Wire Wire Line
+	6200 5450 6200 5350
+Connection ~ 6550 5350
+Wire Wire Line
+	6550 5750 6550 5850
+Connection ~ 6900 5850
+Wire Wire Line
+	6200 5750 6200 5850
+Connection ~ 6550 5850
+$Comp
+L C C8
+U 1 1 5BDA57EF
+P 7700 5600
+F 0 "C8" H 7725 5700 50  0000 L CNN
+F 1 "100pF" H 7725 5500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7738 5450 30  0001 C CNN
+F 3 "" H 7700 5600 60  0000 C CNN
+	1    7700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 5BDA5877
+P 8050 5600
+F 0 "C9" H 8075 5700 50  0000 L CNN
+F 1 "100pF" H 8075 5500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8088 5450 30  0001 C CNN
+F 3 "" H 8050 5600 60  0000 C CNN
+	1    8050 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 5350 7700 5450
+Connection ~ 7300 5350
+Wire Wire Line
+	8050 5350 8050 5450
+Connection ~ 7700 5350
+Wire Wire Line
+	7700 5850 7700 5750
+Connection ~ 7300 5850
+Wire Wire Line
+	8050 5850 8050 5750
+Connection ~ 7700 5850
 $EndSCHEMATC
