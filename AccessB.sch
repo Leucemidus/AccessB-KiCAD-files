@@ -1,92 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:AccessB-rescue
-LIBS:switches
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:microchip_pic18mcu
-LIBS:brooktre
-LIBS:dc-dc
-LIBS:onsemi
-LIBS:Power_Management
-LIBS:powerint
-LIBS:gennum
-LIBS:Oscillators
-LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
-LIBS:Symbols_EN60617_13Mar2013
-LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
-LIBS:Symbols_ICs-Diskrete_RevD10
-LIBS:Symbols_ICs-Opto_RevB_16Sep2013
-LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
-LIBS:Symbols_Socket-DIN41612_RevA
-LIBS:Symbols_Transformer-Diskrete_RevA
-LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
-LIBS:74xgxx
-LIBS:ac-dc
-LIBS:actel
-LIBS:Altera
-LIBS:analog_devices
-LIBS:cmos_ieee
-LIBS:diode
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:hc11
-LIBS:ir
-LIBS:Lattice
-LIBS:maxim
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic32mcu
-LIBS:motor_drivers
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:pspice
-LIBS:references
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:transf
-LIBS:ttl_ieee
-LIBS:video
-LIBS:Xicor
-LIBS:Zilog
-LIBS:Microchip MCP1306
+EESchema Schematic File Version 4
 LIBS:AccessB-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -101,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L USB_OTG-RESCUE-AccessB P2
+L AccessB-rescue:USB_OTG-RESCUE-AccessB P2
 U 1 1 562726A7
 P 4200 5350
 F 0 "P2" H 4525 5225 50  0000 C CNN
@@ -112,7 +26,7 @@ F 3 "" V 4150 5250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C1
+L AccessB-rescue:C C1
 U 1 1 5629BFE7
 P 1650 3400
 F 0 "C1" H 1675 3500 50  0000 L CNN
@@ -123,7 +37,7 @@ F 3 "" H 1650 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L AccessB-rescue:C C2
 U 1 1 5629C07C
 P 2250 3400
 F 0 "C2" H 2275 3500 50  0000 L CNN
@@ -134,7 +48,7 @@ F 3 "" H 2250 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L AccessB-rescue:C C4
 U 1 1 5629C0B9
 P 6800 3050
 F 0 "C4" H 6825 3150 50  0000 L CNN
@@ -145,7 +59,7 @@ F 3 "" H 6800 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C3
+L AccessB-rescue:CP C3
 U 1 1 5629C0F8
 P 6900 5600
 F 0 "C3" H 6925 5700 50  0000 L CNN
@@ -156,7 +70,7 @@ F 3 "" H 6900 5600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X05 P1
+L AccessB-rescue:CONN_01X05 P1
 U 1 1 5629C382
 P 2000 5400
 F 0 "P1" H 2000 5700 50  0000 C CNN
@@ -167,7 +81,7 @@ F 3 "" H 2000 5400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PIC18(L)F2550-I/SO U1
+L AccessB-rescue:PIC18(L)F2550-I_SO U1
 U 1 1 562721CB
 P 4650 2700
 F 0 "U1" H 3650 3700 50  0000 C CNN
@@ -195,7 +109,7 @@ F11 "GPIO4/RC6" I L 9300 4950 60
 F12 "VLS" O L 9300 4150 60 
 $EndSheet
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5632DC45
 P 2850 5800
 F 0 "#PWR01" H 2850 5550 50  0001 C CNN
@@ -206,7 +120,7 @@ F 3 "" H 2850 5800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal Y1
+L AccessB-rescue:Crystal Y1
 U 1 1 5632E118
 P 1950 2900
 F 0 "Y1" H 1950 3050 50  0000 C CNN
@@ -217,7 +131,7 @@ F 3 "" H 1950 2900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 56330810
 P 1950 3900
 F 0 "#PWR02" H 1950 3650 50  0001 C CNN
@@ -228,7 +142,7 @@ F 3 "" H 1950 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG03
+L power:PWR_FLAG #FLG03
 U 1 1 56332B13
 P 2850 5600
 F 0 "#FLG03" H 2850 5695 50  0001 C CNN
@@ -239,7 +153,7 @@ F 3 "" H 2850 5600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 56332E46
 P 4600 4000
 F 0 "#PWR04" H 4600 3750 50  0001 C CNN
@@ -298,7 +212,7 @@ Text Label 8400 1550 2    60   ~ 0
 Text Label 8400 1350 2    60   ~ 0
 GND
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 56367ADB
 P 3750 5850
 F 0 "#PWR05" H 3750 5600 50  0001 C CNN
@@ -324,7 +238,7 @@ Text Label 1800 5300 2    60   ~ 0
 Text Label 1800 5200 2    60   ~ 0
 GPIO0/RE3
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5636AE18
 P 6800 3400
 F 0 "#PWR06" H 6800 3150 50  0001 C CNN
@@ -457,7 +371,7 @@ ICSP HEADER
 Text Label 8400 1250 2    60   ~ 0
 GND
 $Comp
-L CONN_02X15 P3
+L AccessB-rescue:CONN_02X15 P3
 U 1 1 56376D9B
 P 8650 1850
 F 0 "P3" H 8650 2650 50  0000 C CNN
@@ -500,7 +414,7 @@ VLS
 Text Label 8400 1450 2    60   ~ 0
 GND
 $Comp
-L USB_OTG-RESCUE-AccessB P5
+L AccessB-rescue:USB_OTG-RESCUE-AccessB P5
 U 1 1 592BE443
 P 5350 5350
 F 0 "P5" H 5675 5225 50  0000 C CNN
@@ -516,7 +430,7 @@ NoConn ~ 5050 5450
 NoConn ~ 5050 5350
 NoConn ~ 5050 5250
 $Comp
-L VCC #PWR07
+L power:VCC #PWR07
 U 1 1 592D4E49
 P 2900 4900
 F 0 "#PWR07" H 2900 4750 50  0001 C CNN
@@ -533,7 +447,7 @@ GPIO1/RC0
 Entry Wire Line
 	7700 2050 7800 2150
 $Comp
-L C C5
+L AccessB-rescue:C C5
 U 1 1 5BD344C0
 P 7300 5600
 F 0 "C5" H 7325 5700 50  0000 L CNN
@@ -544,7 +458,7 @@ F 3 "" H 7300 5600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 5BD34D49
 P 7100 6000
 F 0 "#PWR08" H 7100 5750 50  0001 C CNN
@@ -561,7 +475,7 @@ IC DECOUPLING
 Text Notes 4900 5000 0    118  ~ 24
 USB POWER
 $Comp
-L PWR_FLAG #FLG09
+L power:PWR_FLAG #FLG09
 U 1 1 5BD3BDCF
 P 3250 4900
 F 0 "#FLG09" H 3250 4995 50  0001 C CNN
@@ -574,7 +488,7 @@ $EndComp
 Text GLabel 3050 5700 2    60   UnSpc ~ 0
 GND
 $Comp
-L CP C7
+L AccessB-rescue:CP C7
 U 1 1 5BDA4749
 P 6550 5600
 F 0 "C7" H 6575 5700 50  0000 L CNN
@@ -585,7 +499,7 @@ F 3 "" H 6550 5600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C6
+L AccessB-rescue:CP C6
 U 1 1 5BDA47E5
 P 6200 5600
 F 0 "C6" H 6225 5700 50  0000 L CNN
@@ -604,7 +518,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 5850 7300 5750
 Wire Wire Line
-	6200 5850 8050 5850
+	6200 5850 6550 5850
 Wire Wire Line
 	6900 5750 6900 5850
 Connection ~ 7100 5350
@@ -613,7 +527,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 5350 7300 5450
 Wire Wire Line
-	6200 5350 8050 5350
+	6200 5350 6550 5350
 Wire Wire Line
 	6900 5450 6900 5350
 Wire Wire Line
@@ -723,15 +637,7 @@ Wire Bus Line
 Wire Bus Line
 	7700 4400 2800 4400
 Wire Bus Line
-	2800 4400 2800 2900
-Wire Bus Line
-	6450 1000 6450 2400
-Wire Bus Line
-	7700 1000 7700 4400
-Wire Bus Line
 	2800 1000 9800 1000
-Wire Bus Line
-	2800 1000 2800 2300
 Wire Wire Line
 	6800 3200 6800 3400
 Wire Wire Line
@@ -745,20 +651,20 @@ Connection ~ 1650 2900
 Wire Wire Line
 	3450 2500 1650 2500
 Wire Wire Line
-	3750 5550 3750 5850
+	3750 5550 3750 5800
 Wire Wire Line
 	3900 5550 3750 5550
 Wire Wire Line
-	2900 5150 3900 5150
+	2900 5150 3050 5150
 Wire Wire Line
 	4650 1600 4650 1400
 Wire Wire Line
-	2850 5600 2850 5800
+	2850 5600 2850 5700
 Connection ~ 4600 4000
 Wire Wire Line
 	4650 4000 4650 3800
 Wire Wire Line
-	4550 4000 4650 4000
+	4550 4000 4600 4000
 Wire Wire Line
 	4550 3800 4550 4000
 Connection ~ 1950 3750
@@ -767,17 +673,17 @@ Wire Wire Line
 Wire Wire Line
 	2250 3750 2250 3550
 Wire Wire Line
-	1650 3750 2250 3750
+	1650 3750 1950 3750
 Wire Wire Line
 	1650 3550 1650 3750
 Wire Wire Line
 	2250 2900 2100 2900
 Wire Wire Line
-	2250 2600 2250 3250
+	2250 2600 2250 2900
 Wire Wire Line
 	1650 2900 1800 2900
 Wire Wire Line
-	1650 2500 1650 3250
+	1650 2500 1650 2900
 Wire Wire Line
 	3050 5000 3050 5150
 Connection ~ 3050 5150
@@ -787,7 +693,7 @@ Connection ~ 3250 5150
 Wire Wire Line
 	5450 5750 5450 5800
 Wire Wire Line
-	5450 5800 3750 5800
+	5450 5800 5050 5800
 Connection ~ 3750 5800
 Wire Wire Line
 	4300 5750 4300 5800
@@ -806,7 +712,7 @@ Wire Wire Line
 	6200 5750 6200 5850
 Connection ~ 6550 5850
 $Comp
-L C C8
+L AccessB-rescue:C C8
 U 1 1 5BDA57EF
 P 7700 5600
 F 0 "C8" H 7725 5700 50  0000 L CNN
@@ -817,7 +723,7 @@ F 3 "" H 7700 5600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L AccessB-rescue:C C9
 U 1 1 5BDA5877
 P 8050 5600
 F 0 "C9" H 8075 5700 50  0000 L CNN
@@ -839,4 +745,52 @@ Connection ~ 7300 5850
 Wire Wire Line
 	8050 5850 8050 5750
 Connection ~ 7700 5850
+Wire Wire Line
+	2850 5700 2850 5800
+Wire Wire Line
+	7100 5850 7300 5850
+Wire Wire Line
+	7100 5350 7300 5350
+Wire Wire Line
+	2250 2900 2250 3250
+Wire Wire Line
+	1650 2900 1650 3250
+Wire Wire Line
+	4600 4000 4650 4000
+Wire Wire Line
+	1950 3750 2250 3750
+Wire Wire Line
+	3050 5150 3250 5150
+Wire Wire Line
+	3250 5150 3900 5150
+Wire Wire Line
+	3750 5800 3750 5850
+Wire Wire Line
+	4300 5800 3750 5800
+Wire Wire Line
+	5050 5800 4300 5800
+Wire Wire Line
+	6900 5350 7100 5350
+Wire Wire Line
+	6550 5350 6900 5350
+Wire Wire Line
+	6900 5850 7100 5850
+Wire Wire Line
+	6550 5850 6900 5850
+Wire Wire Line
+	7300 5350 7700 5350
+Wire Wire Line
+	7700 5350 8050 5350
+Wire Wire Line
+	7300 5850 7700 5850
+Wire Wire Line
+	7700 5850 8050 5850
+Wire Bus Line
+	6450 1000 6450 2400
+Wire Bus Line
+	2800 1000 2800 2300
+Wire Bus Line
+	2800 2900 2800 4400
+Wire Bus Line
+	7700 1000 7700 4400
 $EndSCHEMATC

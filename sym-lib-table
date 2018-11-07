@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name AccessB-rescue)(type Legacy)(uri ${KIPRJMOD}/AccessB-rescue.lib)(options "")(descr ""))
+  (lib (name Microchip-MCP1306)(type Legacy)(uri "${KIPRJMOD}/Microchip MCP1306.lib")(options "")(descr ""))
+)
