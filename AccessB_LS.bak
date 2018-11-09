@@ -1,92 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:AccessB-rescue
-LIBS:switches
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:microchip_pic18mcu
-LIBS:brooktre
-LIBS:dc-dc
-LIBS:onsemi
-LIBS:Power_Management
-LIBS:powerint
-LIBS:gennum
-LIBS:Oscillators
-LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
-LIBS:Symbols_EN60617_13Mar2013
-LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
-LIBS:Symbols_ICs-Diskrete_RevD10
-LIBS:Symbols_ICs-Opto_RevB_16Sep2013
-LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
-LIBS:Symbols_Socket-DIN41612_RevA
-LIBS:Symbols_Transformer-Diskrete_RevA
-LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
-LIBS:74xgxx
-LIBS:ac-dc
-LIBS:actel
-LIBS:Altera
-LIBS:analog_devices
-LIBS:cmos_ieee
-LIBS:diode
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:hc11
-LIBS:ir
-LIBS:Lattice
-LIBS:maxim
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic32mcu
-LIBS:motor_drivers
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:pspice
-LIBS:references
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:transf
-LIBS:ttl_ieee
-LIBS:video
-LIBS:Xicor
-LIBS:Zilog
-LIBS:Microchip MCP1306
+EESchema Schematic File Version 4
 LIBS:AccessB-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -101,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BSS138-RESCUE-AccessB Q1
+L AccessB-rescue:BSS138-RESCUE-AccessB Q1
 U 1 1 56315FAE
 P 2400 5350
 AR Path="/56315FAE" Ref="Q1"  Part="1" 
@@ -114,7 +28,7 @@ F 3 "" H 2400 5350 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L AccessB-rescue:R R3
 U 1 1 56315FB5
 P 2800 5150
 F 0 "R3" V 2880 5150 50  0000 C CNN
@@ -125,7 +39,7 @@ F 3 "" H 2800 5150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L AccessB-rescue:R R1
 U 1 1 56315FBC
 P 1950 5150
 F 0 "R1" V 2030 5150 50  0000 C CNN
@@ -136,7 +50,7 @@ F 3 "" H 1950 5150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138-RESCUE-AccessB Q3
+L AccessB-rescue:BSS138-RESCUE-AccessB Q3
 U 1 1 5639A137
 P 5450 5350
 AR Path="/5639A137" Ref="Q3"  Part="1" 
@@ -149,7 +63,7 @@ F 3 "" H 5450 5350 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R8
+L AccessB-rescue:R R8
 U 1 1 5639A13E
 P 5850 5150
 F 0 "R8" V 5930 5150 50  0000 C CNN
@@ -160,7 +74,7 @@ F 3 "" H 5850 5150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L AccessB-rescue:R R6
 U 1 1 5639A145
 P 5000 5150
 F 0 "R6" V 5080 5150 50  0000 C CNN
@@ -171,7 +85,7 @@ F 3 "" H 5000 5150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138-RESCUE-AccessB Q4
+L AccessB-rescue:BSS138-RESCUE-AccessB Q4
 U 1 1 5639A252
 P 5500 7000
 AR Path="/5639A252" Ref="Q4"  Part="1" 
@@ -184,7 +98,7 @@ F 3 "" H 5500 7000 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R10
+L AccessB-rescue:R R10
 U 1 1 5639A259
 P 5900 6800
 F 0 "R10" V 5980 6800 50  0000 C CNN
@@ -195,7 +109,7 @@ F 3 "" H 5900 6800 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L AccessB-rescue:R R7
 U 1 1 5639A260
 P 5050 6800
 F 0 "R7" V 5130 6800 50  0000 C CNN
@@ -206,7 +120,7 @@ F 3 "" H 5050 6800 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138-RESCUE-AccessB Q2
+L AccessB-rescue:BSS138-RESCUE-AccessB Q2
 U 1 1 5639A482
 P 2400 7000
 AR Path="/5639A482" Ref="Q2"  Part="1" 
@@ -219,7 +133,7 @@ F 3 "" H 2400 7000 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R4
+L AccessB-rescue:R R4
 U 1 1 5639A489
 P 2800 6800
 F 0 "R4" V 2880 6800 50  0000 C CNN
@@ -230,7 +144,7 @@ F 3 "" H 2800 6800 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L AccessB-rescue:R R2
 U 1 1 5639A490
 P 1950 6800
 F 0 "R2" V 2030 6800 50  0000 C CNN
@@ -241,7 +155,7 @@ F 3 "" H 1950 6800 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138-RESCUE-AccessB Q5
+L AccessB-rescue:BSS138-RESCUE-AccessB Q5
 U 1 1 5639ADF6
 P 8500 5350
 AR Path="/5639ADF6" Ref="Q5"  Part="1" 
@@ -254,7 +168,7 @@ F 3 "" H 8500 5350 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R17
+L AccessB-rescue:R R17
 U 1 1 5639ADFD
 P 8900 5150
 F 0 "R17" V 8980 5150 50  0000 C CNN
@@ -265,7 +179,7 @@ F 3 "" H 8900 5150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R16
+L AccessB-rescue:R R16
 U 1 1 5639AE04
 P 8050 5150
 F 0 "R16" V 8130 5150 50  0000 C CNN
@@ -391,7 +305,7 @@ LOW VOLTAGE SELECTOR
 Text GLabel 10750 5300 1    60   UnSpc ~ 0
 GND
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 563D3E74
 P 10750 5550
 F 0 "#PWR010" H 10750 5300 50  0001 C CNN

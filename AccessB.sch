@@ -197,15 +197,15 @@ Text Label 8400 2450 2    60   ~ 0
 GPIO18/RB6
 Text Label 8400 2550 2    60   ~ 0
 GPIO19/RB7
-Text Label 8900 1250 0    60   ~ 0
-GPIO4/RC6_VLS
-Text Label 8900 1150 0    60   ~ 0
-GPIO5/RC7_VLS
 Text Label 8900 1550 0    60   ~ 0
-GPIO11/RA5_VLS
+GPIO4/RC6_VLS
 Text Label 8900 1450 0    60   ~ 0
-GPIO12/RB0_VLS
+GPIO5/RC7_VLS
+Text Label 8900 1250 0    60   ~ 0
+GPIO11/RA5_VLS
 Text Label 8900 1350 0    60   ~ 0
+GPIO12/RB0_VLS
+Text Label 8900 1150 0    60   ~ 0
 GPIO13/RB1_VLS
 Text Label 8400 1550 2    60   ~ 0
 +5V
