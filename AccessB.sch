@@ -224,9 +224,9 @@ F 3 "" H 3750 5850 60  0000 C CNN
 $EndComp
 NoConn ~ 3900 5450
 Text Label 3900 5250 2    60   ~ 0
-D-/RC4
+D-
 Text Label 3900 5350 2    60   ~ 0
-D+/RC5
+D+
 Text Label 1800 5600 2    60   ~ 0
 GPIO18/RB6
 Text Label 1800 5500 2    60   ~ 0
@@ -282,10 +282,8 @@ Text Label 5850 2000 0    60   ~ 0
 GPIO2/RC1
 Text Label 5850 2100 0    60   ~ 0
 GPIO3/RC2
-Text Label 5850 2200 0    60   ~ 0
-D-/RC4
 Text Label 5850 2300 0    60   ~ 0
-D+/RC5
+D+
 Text Label 5850 2400 0    60   ~ 0
 GPIO4/RC6
 Text Label 5850 2500 0    60   ~ 0
@@ -786,11 +784,13 @@ Wire Wire Line
 Wire Wire Line
 	7700 5850 8050 5850
 Wire Bus Line
-	6450 1000 6450 2400
-Wire Bus Line
-	2800 1000 2800 2300
+	7700 1000 7700 4400
 Wire Bus Line
 	2800 2900 2800 4400
 Wire Bus Line
-	7700 1000 7700 4400
+	2800 1000 2800 2300
+Wire Bus Line
+	6450 1000 6450 2400
+Text Label 5850 2200 0    60   ~ 0
+D-
 $EndSCHEMATC
