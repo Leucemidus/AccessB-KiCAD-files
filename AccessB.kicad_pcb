@@ -17,8 +17,8 @@
   )
 
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
@@ -644,7 +644,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 565B53CF) (tstamp 5BE5DB7B)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 565B53CF) (tstamp 5BEE0221)
     (at 169.650794 111.369546)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -2442,12 +2442,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 95.25 118.54) (xy 96.48 117.69) (xy 96.48 119.43)
+        (xy 164.425 75.67) (xy 165.275 76.9) (xy 163.535 76.9)
       )
     )
     (filled_polygon
       (pts
-        (xy 96.353 119.181346) (xy 95.46994 118.542384) (xy 96.353 117.932139)
+        (xy 165.032861 76.773) (xy 163.783654 76.773) (xy 164.422616 75.88994)
       )
     )
   )
